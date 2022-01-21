@@ -8,27 +8,51 @@ body {
   background-color: #1f2937;
 }
 
+.logo,
+.main-text,
+button,
+.call {
+  color: #f9faf8;
+}
+
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #f9faf8;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .main-text {
   font-size: 48px;
   font-weight: 800;
-  color: #f9faf8;
 }
 
-.text {
+.text,
+.footer,
+a {
   font-size: 18px;
   color: #e5e7eb;
 }
 
-.info-header {
-  font-size: 36px;
-  font-weight: 800;
+.info-header,
+.quote {
   color: #1f2937;
+  font-size: 36px;
+}
+
+.info-header {
+  font-weight: 800;
+}
+
+.info img {
+  border-color: #3882f6;
+  border-radius: 20px;
 }
 
 .quote-section {
@@ -36,13 +60,20 @@ body {
 }
 
 .quote {
-  font-size: 36px;
   font-weight: 300;
   font-style: italic;
-  color: #1f2937
+}
+
+.quote-source {
+  font-weight: bold;
 }
 
 button,
 .call-container {
   background-color: #3882f6;
+  border-radius: 20px;
+}
+
+button {
+  border-color: #f9faf8;
 }
