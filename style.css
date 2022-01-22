@@ -23,7 +23,7 @@ body {
 .hero-section,
 .info-section,
 .quote-section {
-  flex: 1 0 300px;
+  flex: 1 0 350px;
 }
 
 .logo,
