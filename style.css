@@ -105,3 +105,9 @@ button,
 button {
   border-color: #f9faf8;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
