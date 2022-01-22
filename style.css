@@ -8,14 +8,16 @@ body {
 
 .header,
 .hero-section,
-.footer {
-  background-color: #1f2937;
+.info-section,
+.quote-section,
+.action-section {
+  padding: 20px 100px;
 }
 
 .header,
 .hero-section,
-.action-section {
-  padding: 20px 100px;
+.footer {
+  background-color: #1f2937;
 }
 
 .hero-section,
@@ -96,6 +98,13 @@ a {
   border-radius: 20px;
 }
 
+.quote-section,
+.action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .quote-section {
   background-color: #e5e7eb;
 }
@@ -124,6 +133,7 @@ button {
 }
 
 .footer {
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
