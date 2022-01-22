@@ -68,6 +68,8 @@ a {
 
 .info-header {
   font-weight: 800;
+  display: flex;
+  justify-content: center;
 }
 
 .info-container {
