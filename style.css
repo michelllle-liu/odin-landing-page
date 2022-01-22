@@ -109,11 +109,29 @@ button {
 
 .info-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.info {
+  max-width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .info img {
   border-color: #3882f6;
-  border-radius: 20px;
+  border-radius: 15px;
+  border-style: solid;
+  height: 120px;
+  width: 120px;
+}
+
+.info .text {
+  text-align: center;
 }
 
 .quote-section,
