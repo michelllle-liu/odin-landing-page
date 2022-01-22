@@ -23,7 +23,7 @@ body {
 .hero-section,
 .info-section,
 .quote-section {
-  flex-grow: 1;
+  flex: 1 0 300px;
 }
 
 .logo,
@@ -70,6 +70,10 @@ a {
   font-weight: 800;
 }
 
+.hero .text {
+  margin-bottom: 10px;
+}
+
 .hero-section img,
 .text,
 .footer,
@@ -84,7 +88,7 @@ a {
 }
 
 button {
-  padding: 5px 25px;
+  padding: 6px 25px;
   font-weight: bold;
   border-style: none;
 }
@@ -133,7 +137,7 @@ button {
 button,
 .call-container {
   background-color: #3882f6;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .call {
