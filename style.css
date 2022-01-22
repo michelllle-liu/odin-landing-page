@@ -83,6 +83,12 @@ a {
   height: auto;
 }
 
+button {
+  padding: 5px 25px;
+  font-weight: bold;
+  border-style: none;
+}
+
 .info-header,
 .quote {
   color: #1f2937;
@@ -127,15 +133,16 @@ a {
 button,
 .call-container {
   background-color: #3882f6;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
 .call {
   font-weight: bold;
 }
 
-button {
+.call-container button {
   border-color: #f9faf8;
+  border-style: solid;
 }
 
 .footer {
