@@ -4,7 +4,7 @@ body {
 }
 
 .header,
-.hero,
+.hero-section,
 .footer {
   background-color: #1f2937;
 }
@@ -21,9 +21,16 @@ button,
   font-weight: bold;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 ul {
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 20px;
 }
 
 li {
@@ -32,6 +39,10 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.hero-section {
+  display: flex;
 }
 
 .main-text {
@@ -56,6 +67,10 @@ a {
   font-weight: 800;
 }
 
+.info-container {
+  display: flex;
+}
+
 .info img {
   border-color: #3882f6;
   border-radius: 20px;
@@ -78,6 +93,10 @@ button,
 .call-container {
   background-color: #3882f6;
   border-radius: 20px;
+}
+
+.call {
+  font-weight: bold;
 }
 
 button {
