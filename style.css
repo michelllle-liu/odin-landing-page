@@ -11,6 +11,12 @@ body {
   background-color: #1f2937;
 }
 
+.header,
+.hero-section,
+.action-section {
+  padding: 20px 100px;
+}
+
 .logo,
 .main-text,
 button,
@@ -45,6 +51,7 @@ a {
 
 .hero-section {
   display: flex;
+  justify-content: space-between;
 }
 
 .main-text {
