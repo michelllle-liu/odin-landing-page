@@ -83,7 +83,7 @@ a {
 }
 
 .hero-section img {
-  width: 800px;
+  width: auto;
   height: auto;
 }
 
@@ -103,6 +103,8 @@ button {
   font-weight: 800;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .info-container {
