@@ -171,6 +171,13 @@ button,
   border-radius: 5px;
 }
 
+.call-container {
+  width: 75vw;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .call {
   font-weight: bold;
 }
