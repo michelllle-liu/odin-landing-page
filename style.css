@@ -161,6 +161,10 @@ button {
   align-self: flex-end;
 }
 
+.action-section {
+  min-height: 275px;
+}
+
 button,
 .call-container {
   background-color: #3882f6;
