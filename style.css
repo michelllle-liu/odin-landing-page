@@ -1,4 +1,5 @@
 body {
+  min-height: 100vh;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   display: flex;
@@ -15,6 +16,12 @@ body {
 .hero-section,
 .action-section {
   padding: 20px 100px;
+}
+
+.hero-section,
+.info-section,
+.quote-section {
+  flex-grow: 1;
 }
 
 .logo,
@@ -52,6 +59,7 @@ a {
 .hero-section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .main-text {
